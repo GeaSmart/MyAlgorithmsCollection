@@ -6,14 +6,14 @@ namespace AlgorithmsBook.Algorithms
 {
     public class BinarySearch
     {
-        public static int Run(int[] arreglo, int x)
-        {       
+        public static int Search(int[] arreglo, int x)
+        {
             int left = 0;
             int right = arreglo.Length - 1;
 
-            while(left <= right)
+            while (left <= right)
             {
-                int middle = left + (right-left) / 2;
+                int middle = left + (right - left) / 2;
 
                 if (arreglo[middle] == x)
                     return middle;

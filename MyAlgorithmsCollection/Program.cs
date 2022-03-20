@@ -1,4 +1,5 @@
 ﻿using AlgorithmsBook.Algorithms;
+using MyAlgorithmsCollection.Algorithms;
 using System;
 
 namespace AlgorithmsBook
@@ -7,7 +8,8 @@ namespace AlgorithmsBook
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(BinarySearch.Run(new int[] { 1,2,3,4,5,6,7,8,9 },90));
+            Fibonacci.Run(20);
+            //Console.WriteLine();
         }
     }
 }
