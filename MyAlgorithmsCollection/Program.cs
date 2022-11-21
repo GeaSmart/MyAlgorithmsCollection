@@ -8,8 +8,8 @@ namespace AlgorithmsBook
     {
         static void Main(string[] args)
         {
-            int[] lista = new int[] { 1, 1,1,1,1,1,1,2, 2, -4, 3, 3, -1, 2,2,9,1,1,0,9,7,7,7 };
-            Console.WriteLine(string.Join(",",DeleteDuplicates.UniqueNumbersHashSet(lista)));
+            string frase = "hola mundo esta es una cadena de caracteres en la cual se hace algo muy sencillo.";
+            Console.WriteLine(LongestWord.Run(frase));
         }
     }
 }
