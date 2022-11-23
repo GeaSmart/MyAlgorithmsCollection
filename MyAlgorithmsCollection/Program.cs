@@ -8,8 +8,8 @@ namespace AlgorithmsBook
     {
         static void Main(string[] args)
         {
-            string frase = "hola mundo esta es una cadena de caracteres en la cual se hace algo muy sencillo.";
-            Console.WriteLine(LongestWord.Run(frase));
+            string frase = "hola   mundo esta es una cadena    de caracteres en la cual se hace algo muy sencillo        m.";
+            Console.WriteLine(RemoveDuplicateSpaces.Run(frase));
         }
     }
 }
