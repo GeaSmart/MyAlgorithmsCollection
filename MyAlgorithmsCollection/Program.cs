@@ -8,8 +8,8 @@ namespace AlgorithmsBook
     {
         static void Main(string[] args)
         {
-            string frase = "hola   mundo esta es una cadena    de caracteres en la cual se hace algo muy sencillo        m.";
-            Console.WriteLine(RemoveDuplicateSpaces.Run(frase));
+            string valor = "MCMXCIV";
+            Console.WriteLine(RomanArabicConverter.Convert(valor));
         }
     }
 }
