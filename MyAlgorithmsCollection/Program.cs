@@ -8,8 +8,7 @@ namespace AlgorithmsBook
     {
         static void Main(string[] args)
         {
-            string valor = "MCMXCIV";
-            Console.WriteLine(RomanArabicConverter.Convert(valor));
+            SwapWithoutTempVariable.Swap(5,7);
         }
     }
 }
