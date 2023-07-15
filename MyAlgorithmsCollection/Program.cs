@@ -8,7 +8,10 @@ namespace AlgorithmsBook
     {
         static void Main(string[] args)
         {
-            SwapWithoutTempVariable.Swap(5,7);
+            Console.WriteLine(ValidParentheses.IsValid("(){}[]"));
+            Console.WriteLine(ValidParentheses.IsValid(")"));
+            Console.WriteLine(ValidParentheses.IsValid("([{}][]())"));
+            Console.WriteLine(ValidParentheses.IsValid("))"));
         }
     }
 }
