@@ -8,10 +8,7 @@ namespace AlgorithmsBook
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(ValidParentheses.IsValid("(){}[]"));
-            Console.WriteLine(ValidParentheses.IsValid(")"));
-            Console.WriteLine(ValidParentheses.IsValid("([{}][]())"));
-            Console.WriteLine(ValidParentheses.IsValid("))"));
+            Console.WriteLine(RemoveDuplicatesSortedArray.RemoveDuplicates(new int[] { 1,1,1,2,2,3}));
         }
     }
 }
