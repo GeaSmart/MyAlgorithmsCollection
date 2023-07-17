@@ -8,7 +8,8 @@ namespace AlgorithmsBook
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(RemoveDuplicatesSortedArray.RemoveDuplicates(new int[] { 1,1,1,2,2,3}));
+            TriangleWithAsterisks.DrawCenterTriangle(6);
+            TriangleWithAsterisks.DrawLeftTriangle(6);
         }
     }
 }
