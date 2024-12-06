@@ -8,8 +8,8 @@ namespace AlgorithmsBook
     {
         static void Main(string[] args)
         {
-            TriangleWithAsterisks.DrawCenterTriangle(6);
-            TriangleWithAsterisks.DrawLeftTriangle(6);
+            var text = "hola, loco mundo esto es hola hola genial. Aunque loco loco loco";
+            MostRepeatedWord.Run(text);
         }
     }
 }
